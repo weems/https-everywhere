@@ -4,6 +4,7 @@ CERN (partial)
 Cheezburger
 Contextly.com (partial)
 dafont.com (partial)
+dict.cc
 EvoTronix (partial)
 Fourmilab (partial)
 Gigya (partial)
@@ -17,9 +18,9 @@ Marktplaats (buggy)
 National Association of Theatre Owners (partial)
 NewsBlur
 Nextag (self-signed)
-NYTimes (breaks comments)
+NYTimes.com (needs ruleset tests)
 Oak Ridge National Laboratory (partial)
-Phoronix Media
+Phoronix.com (partial)
 Qz.com (partial)
 SRG SSR (partial)
 Stack Exchange (partial)
