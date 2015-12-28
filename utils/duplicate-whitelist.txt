@@ -26,6 +26,7 @@ boneblast.com
 box-look.org
 bt.no
 jobs.businessinsider.com
+www.wolfson.cam.ac.uk
 casaar.com
 cccure.training
 mailing.channel4.com
@@ -68,6 +69,7 @@ investors.demandware.com
 df.eu
 dice.com
 www.dice.com
+www.downthemall.net
 drownedinsound.com
 e17-stuff.org
 *.ebaystatic.com
@@ -95,6 +97,7 @@ freeporngif.com
 www.freeporngif.com
 frugalware-art.org
 g33kinfo.com
+www.g33kinfo.com
 geek.com
 genivi.org
 gentoo-art.org
@@ -183,7 +186,6 @@ newrepublic.com
 npmawesome.com
 memberdb.nuug.no
 blogs.nvidia.com
-shield.nvidia.com
 nydailynews.com
 webmail.nyi.net
 nykeurope.com
@@ -257,7 +259,6 @@ trustthevote.org
 docs.typo3.org
 flow.typo3.org
 ubermedia.com
-community.ubuntu.com
 ubuntu-art.org
 ul.ie
 unm.edu

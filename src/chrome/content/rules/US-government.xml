@@ -12,6 +12,7 @@ Fetch error: http://wtr.nhtsa.gov/ => https://wtr.nhtsa.gov/: (7, 'Failed to con
 		- California_Legislative_Information.xml
 		- Catalog-of-Domestic-Federal-Assistance.xml
 		- Central_Intelligence_Agency.xml
+		- Challenge.gov.xml
 		- CIO.gov.xml
 		- City-of-Chicago.xml
 		- City_of_Mountain_View.xml
@@ -20,12 +21,16 @@ Fetch error: http://wtr.nhtsa.gov/ => https://wtr.nhtsa.gov/: (7, 'Failed to con
 		- ClinicalTrials.gov.xml
 		- Colorado_Secretary_of_State.xml
 		- Commodity_Futures_Trading_Commission.xml
+		- Connect.gov.xml
 		- Consumer.gov.xml
 		- CPSC.xml
 		- Data.gov.xml
 		- Defense_Nuclear_Facilities_Safety_Board.xml
+		- DigitalGov.gov.xml
 		- Distraction.xml
+		- ECPIC.gov.xml
 		- ED.gov.xml
+		- EPA.gov.xml
 		- Energy.gov.xml
 		- EnergyStar.xml
 		- Federal_Aviation_Administration.xml
@@ -37,18 +42,22 @@ Fetch error: http://wtr.nhtsa.gov/ => https://wtr.nhtsa.gov/: (7, 'Failed to con
 		- Fermi_National_Accelerator_Laboratory.xml
 		- FoodSafety.gov.xml
 		- Fuel_Economy.xml
+		- GeoPlatform.gov.xml
 		- GSA.gov.xml
 		- HHS.gov.xml
 		- Harry_S_Truman_Library_and_Museum.xml
 		- Hawaii.gov.xml
 		- HowTo.gov.xml
 		- Illinois_Department_of_Financial_and_Professional_Regulation.xml
+		- InforME.org.xml
 		- Investor.gov.xml
 		- IT_Dashboard.gov.xml
 		- Lawrence-Livermore-National-Laboratory.xml
 		- LBL.gov.xml
 		- MA_Legislature.gov.xml
 		- Maine.gov.xml
+		- Maine_Legislature.org.xml
+		- MyRA.gov.xml
 		- NASA.xml
 		- National_Consumer_Protection_Week.xml
 		- National-Institute-of-Standards-and-Technology.xml
@@ -65,6 +74,7 @@ Fetch error: http://wtr.nhtsa.gov/ => https://wtr.nhtsa.gov/: (7, 'Failed to con
 		- Oak-Ridge-National-Laboratory.xml
 		- OnGuard_Online.xml
 		- Pay.gov
+		- Performance.gov.xml
 		- Regulations.gov.xml
 		- Research.gov.xml
 		- Sandia-National-Laboratories.xml
@@ -75,10 +85,11 @@ Fetch error: http://wtr.nhtsa.gov/ => https://wtr.nhtsa.gov/: (7, 'Failed to con
 		- State_of_Delaware.xml
 		- State_of_Oregon.xml
 		- Texas-Department-of-State-Health-Services.xml
+		- Treasury.gov.xml
 		- United-States-Department-of-Agriculture.xml
 		- United-States-Department-of-Energy.xml
 		- United-States-Nuclear-Regulatory-Commission.xml
-		- USA.gov
+		- USA.gov.xml
 		- Us-cert.gov.xml
 		- US_Citizenship_and_Immigration_Services.xml
 		- US_Courts.gov.xml
@@ -96,6 +107,7 @@ Fetch error: http://wtr.nhtsa.gov/ => https://wtr.nhtsa.gov/: (7, 'Failed to con
 		- US-Securities-and-Exchange-Commission.xml
 		- US_State_Department.xml
 		- USAJobs.gov.xml
+		- USAspending.gov.xml
 
 
 	CDN buckets:
@@ -119,7 +131,6 @@ Fetch error: http://wtr.nhtsa.gov/ => https://wtr.nhtsa.gov/: (7, 'Failed to con
 		- (www.)copyright.gov			(cert: wwws.loc.gov; shows that domain's data)
 		- (www.)cybercrime.gov			(ssl_error_rx_record_too_long)
 		- www.defense.gov			(Akamai; 301s to http)
-		- water.epa.gov
 		- fs.fed.us
 		- nrs.fs.fed.us
 		- www.fs.fed.us				(Akamai; 302s to http; origin, origin-www, nor www-origin exist)

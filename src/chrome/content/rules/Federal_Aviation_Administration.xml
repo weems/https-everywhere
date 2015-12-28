@@ -1,21 +1,28 @@
 <!--
+	Federal Aviation Administration
+
+	For other US government coverage, see US-government.xml.
+
+
 	^faa.gov doesn't exist
 
 
-	Nonfunctional subdomains:
+	Nonfunctional hosts in faa.gov:
 
-		- rgl	(times out)
+		- rgl *
+
+	* Dropped
 
 -->
-<ruleset name="Federal Aviation Administration (partial)">
+<ruleset name="FAA.gov (partial)">
 
 	<target host="www.faa.gov" />
 
 
-	<securecookie host="^www\.faa\.gov$" name=".+" />
+	<securecookie host="^\w" name="." />
 
 
-	<rule from="^http://www\.faa\.gov/"
-		to="https://www.faa.gov/" />
+	<rule from="^http:"
+		to="https:" />
 
 </ruleset>
