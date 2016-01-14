@@ -2,31 +2,36 @@
   -moz-binding: url("chrome://https-everywhere/content/toolbar_button_binding.xml#https-everywhere-binding");
 }
 
-#https-everywhere-button > .https-everywhere-button {
-  list-style-image: url("chrome://https-everywhere/skin/https-everywhere-24.png");
-}
-
-toolbar[iconsize="small"] #https-everywhere-button > .https-everywhere-button {
-  list-style-image: url("chrome://https-everywhere/skin/https-everywhere-16.png");
-}
-
 toolbar #https-everywhere-button,
 toolbar #https-everywhere-button > .https-everywhere-button {
   -moz-box-orient: horizontal;
 }
 
 /* Use CSS attribute selector for changing icon */
-#https-everywhere-button[http_nowhere="true"] > .https-everywhere-button {
-  list-style-image: url("chrome://https-everywhere/skin/https-everywhere-24-red.png");
+#https-everywhere-button > .https-everywhere-button {
+  list-style-image: url("chrome://https-everywhere/skin/icon-inactive-24.png");
+}
+#https-everywhere-button[status="inactive"] > .https-everywhere-button {
+  list-style-image: url("chrome://https-everywhere/skin/icon-active-24.png");
 }
 #https-everywhere-button[status="disabled"] > .https-everywhere-button {
-  list-style-image: url("chrome://https-everywhere/skin/https-everywhere-24-gray.png");
+  list-style-image: url("chrome://https-everywhere/skin/icon-disabled-24.png");
 }
-toolbar[iconsize="small"] #https-everywhere-button[http_nowhere="true"] > .https-everywhere-button {
-  list-style-image: url("chrome://https-everywhere/skin/https-everywhere-16-red.png");
+#https-everywhere-button[http_nowhere="true"] > .https-everywhere-button {
+  list-style-image: url("chrome://https-everywhere/skin/icon-blocking-24.png");
+}
+
+toolbar[iconsize="small"] #https-everywhere-button > .https-everywhere-button {
+  list-style-image: url("chrome://https-everywhere/skin/icon-inactive-16.png");
+}
+toolbar[iconsize="small"] #https-everywhere-button[status="active"] > .https-everywhere-button {
+  list-style-image: url("chrome://https-everywhere/skin/icon-active-16.png");
 }
 toolbar[iconsize="small"] #https-everywhere-button[status="disabled"] > .https-everywhere-button {
-  list-style-image: url("chrome://https-everywhere/skin/https-everywhere-16-gray.png");
+  list-style-image: url("chrome://https-everywhere/skin/icon-disabled-16.png");
+}
+toolbar[iconsize="small"] #https-everywhere-button[status="http_nowhere"] > .https-everywhere-button {
+  list-style-image: url("chrome://https-everywhere/skin/icon-blocking-24.png");
 }
 
 /* ruleset counter */
