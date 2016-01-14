@@ -87,9 +87,16 @@ loadStoredUserRules();
  * Depending on http-nowhere it should be red/default
  */
 var setIconColor = function() {
-  var newIconPath = httpNowhereOn ? './icon38-red.png' : './icon38.png';
+  var newIcon = {
+    "38": "icons/icon-active-38.png",
+  };
+  if (httpNowhereOn) {
+    newIcon = {
+      "38": "icons/icon-blocking-38.png",
+    }
+  }
   chrome.browserAction.setIcon({
-    path: newIconPath
+    path: newIcon
   });
 };
 
