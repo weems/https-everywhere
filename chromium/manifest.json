@@ -35,6 +35,7 @@
     "minimum_chrome_version": "18",
     "name": "__MSG_about_ext_name__",
     "permissions": [
+        "webNavigation",
         "webRequest",
         "webRequestBlocking",
         "tabs",
