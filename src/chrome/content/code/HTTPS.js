@@ -43,6 +43,7 @@ const HTTPS = {
     // If the callback gets called immediately (not async), it will be called
     // before the return from the function sets this variable, so we default it
     // to true.
+    // XXX TODO: move to promises
     var callbackedImmediate = true;
     callbackedImmediate = HTTPSRules.rewrittenURI(applicable_list, channel.URI.clone(), function(blob) {
       if (callbackedImmediate) {
