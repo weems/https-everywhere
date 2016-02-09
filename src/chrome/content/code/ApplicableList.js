@@ -75,7 +75,7 @@ ApplicableList.prototype = {
     // ApplicableList, so pretend we're loading it from here.
     var uri = this.uri;
     if (!(uri.schemeIs("http") || uri.schemeIs("https"))) {
-      return true;
+      return;
     }
     HTTPSEverywhere.instance.https_rules.rewrittenURI(this, uri);
     this.log(DBUG, "populating using alist #" + this.serial);
